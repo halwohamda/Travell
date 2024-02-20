@@ -42,6 +42,11 @@
     transform: translateX(70%);
     
 }
+.nav a:hover{
+    color: rgb(133, 4, 172);
+    cursor: pointer;
+
+}
 
 .bk{
     background: rgb(133, 4, 172);
@@ -49,6 +54,11 @@
     border-radius: 50rem;
 
 
+}
+.bk:hover{
+    background: white;
+    color: rgb(133, 4, 172);
+    border: 2px solid rgb(133, 4, 172);
 }
 .section{
    padding: 20px;
@@ -95,6 +105,12 @@
     cursor: pointer;
     border: solid 2px rgb(133, 4, 172);
 
+}
+.cu:hover{
+    background: rgb(133, 4, 172);
+    color: white;
+    cursor: pointer;
+    
 }
 
 .imgg{
