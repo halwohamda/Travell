@@ -48,6 +48,7 @@
     color: white;
     border-radius: 50rem;
 
+
 }
 .section{
    padding: 20px;
@@ -79,12 +80,25 @@
     color: white;
     border-radius: 10rem;
     padding: 10px 10px;
+    cursor: pointer;
+
 
 }
 .cu{
     color: rgb(133, 4, 172);
-
     border-radius: 10rem;
     padding: 10px 10px;
     transform: translateX(30px);
+    cursor: pointer;
+    border: solid 2px rgb(133, 4, 172);
+
+}
+
+.imgg{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+ 
 }

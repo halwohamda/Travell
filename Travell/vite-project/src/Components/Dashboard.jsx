@@ -34,7 +34,7 @@ const Dashboard = () => {
     <button className='cu'>Contact Us</button>
    </div>
 </div>
-<div className="img">
+<div className="imgg">
   <div className="img">
     <img src="/airline.jfif" alt="" />
   </div>
