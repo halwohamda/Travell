@@ -28,7 +28,7 @@ const Dashboard = () => {
 <h6 className='h'>How to Our Website</h6>
 <h1 className='h1'>Luluxry Expirence <br /> with our Service</h1>
 <p className='p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
-   Eveniet qui perferendis, <br /> eligendi reprehenderit, <br /> quos quas inventore ve</p>
+   Eveniet qui perferendis,  eligendi reprehenderit, <br /> quos quas inventore ve</p>
    <div className="btn">
     <button className='fli'>Bookin Flight</button>
     <button className='cu'>Contact Us</button>

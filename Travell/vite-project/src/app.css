@@ -54,21 +54,24 @@
    padding: 20px;
    font-size: large;
     margin-top: 10%;
-    /* transform: translateX(10px); */
+    margin-left: 5%; 
 }
 .h{
     font-size: 20px;
     font-weight: 20;
+    margin-left: 4%;
     
 }
 .h1{
-    font-size: 40px;
-    font-weight: 10px;
+    font-size: 50px;
+    color: rgb(133, 4, 172);
+    font-weight: 100;
 
 }
 .p{
     padding: 20px;
-
+   justify-content: center;
+   
 
 }
 .btn{
@@ -98,13 +101,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    transform: translateY(-300px);
-    margin-left:40%;
+    transform: translateY(-250px);
+    margin-left:50%;
    
 }
 .img{
-    width: 100vh;
+    width: 100%;
     height: 100px;
-    padding: 20px 0px;
 
 }
