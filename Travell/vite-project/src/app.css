@@ -93,7 +93,7 @@
 }
 .fli:hover{
     background-color: white;
-    color: rebeccapurple;
+    color:  rgb(133, 4, 172);
     border: 2px solid rgb(133, 4, 172);
     cursor: pointer;
 }
