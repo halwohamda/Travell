@@ -81,6 +81,12 @@
 
 
 }
+.fli:hover{
+    background-color: white;
+    color: rebeccapurple;
+    border: 2px solid rgb(133, 4, 172);
+    cursor: pointer;
+}
 .cu{
     color: rgb(133, 4, 172);
     border-radius: 10rem;
