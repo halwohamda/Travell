@@ -1,10 +1,14 @@
 import React from 'react'
+import Dashboard from './Components/Dashboard'
+import { Outlet } from 'react-router'
 
 const App = () => {
   return (
-    <div>
-      hellow tailwindcss
-    </div>
+    <>
+  
+     <Dashboard/>
+     <Outlet/>
+    </>
   )
 }
 
