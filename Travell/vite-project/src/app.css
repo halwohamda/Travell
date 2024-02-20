@@ -119,10 +119,13 @@
     text-align: center;
     transform: translateY(-250px);
     margin-left:50%;
+    width: 640px;
+    height: 640px;
    
-}
-.img{
+} 
+  .imgg .img{
     width: 100%;
-    height: 100px;
+    height: 100%;
+    object-fit: contain;
 
 }
