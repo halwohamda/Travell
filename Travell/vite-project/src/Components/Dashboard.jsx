@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 import '../app.css'
 const Dashboard = () => {
   return (
@@ -12,7 +12,7 @@ const Dashboard = () => {
   <div className="nav">
  
   <a>
-          <Link>Home</Link>
+          <Link to='/Home'>Home</Link>
           <Link>About</Link>
           <Link>Howto</Link>
           <Link>Service</Link>
