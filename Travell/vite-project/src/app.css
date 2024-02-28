@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
     font-family: 'Work-serif' sans-serif;
     box-sizing: border-box;
+    
     color: black;
 
 }
@@ -114,13 +115,9 @@
 }
 
 .imgg{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    transform: translateY(-250px);
-    margin-left:50%;
-    width: 640px;
-    height: 640px;
+text-align: center;
+transform: translateY(-300px);
+margin-left: 50%;
    
 } 
   .imgg .img{
