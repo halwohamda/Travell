@@ -40,41 +40,13 @@
 }
 .nav a{
     padding: 10px 15px;
-    position: relative;  
-    cursor: pointer;
-    
-    color: white;
     transform: translateX(70%);
-
-
     
 }
-.nav span{
-  background-color: rgb(133, 4, 172);
-    width: 100px;
-    height: 90%;
-    position: absolute;
-    left: 0;
-    transition: 0.5s;
-    border-radius: 20px;
-    top: 0;
-}
-/* .nav a:hover{
+.nav a:hover{
     color: rgb(133, 4, 172);
     cursor: pointer;
 
-} */
-.nav a:nth-child(1):hover~span{
-    left: 0px;
-}
-.nav a:nth-child(2):hover~span{
-    left: 90px;
-}
-.nav a:nth-child(3):hover~span{
-    left: 180px;
-}
-.nav a:nth-child(4):hover~span{
-    left: 270px;
 }
 
 .bk{
@@ -152,5 +124,4 @@
   .imgg .img{
  width: 100%;
  height: 100vh;
- position: relative;
 }
