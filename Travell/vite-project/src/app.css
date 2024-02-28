@@ -8,8 +8,8 @@
     scroll-behavior: smooth;
     font-family: 'Work-serif' sans-serif;
     box-sizing: border-box;
-    
-    color: black;
+    background-color: black;
+    color: white;
 
 }
 .container{
@@ -115,9 +115,10 @@
 }
 
 .imgg{
-text-align: center;
-transform: translateY(-300px);
-margin-left: 50%;
+    text-align: center;
+    transform: translateY(-300px);
+    margin-left: 50%;
+
    
 } 
   .imgg .img{

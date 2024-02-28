@@ -36,7 +36,7 @@ const Dashboard = () => {
 </div>
 <div className="imgg">
   <div className="img">
-    <img src="/airline.jfif" alt="" />
+    <img src="/airline.png" alt="" />
   </div>
 </div>
 
