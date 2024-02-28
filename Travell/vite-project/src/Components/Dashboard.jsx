@@ -13,11 +13,11 @@ const Dashboard = () => {
  
   <a>
           <Link to='/Home'>Home</Link>
-          <Link>About</Link>
-          <Link>Howto</Link>
-          <Link>Service</Link>
-          <Link>Newspaper</Link>
-          <Link>Contact</Link>
+          <Link to='About'>About</Link>
+          <Link to='Howto'>Howto</Link>
+          <Link to='Service'>Service</Link>
+          <Link to='Newspaper'>Newspaper</Link>
+          <Link to='Contact'>Contact</Link>
           <Link className='bk'>Booking</Link>
           <span></span>
   </a>
