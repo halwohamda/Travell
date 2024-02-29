@@ -26,12 +26,12 @@ function Navbar() {
            </div>
            <nav className=' hidden md:flex flex-row items-center gap-8 text-lg font-medium cursor-pointer '>
             <Link to="Home" >Home</Link>
-            <Link to='/Howto'>Howto</Link>
-            <Link to='/Service'>Service</Link>
-            <Link to='Blog'>Blog</Link>
-            <Link to='Contact'>Contect</Link>
-            <Link to='Newspaper'>NewsPaper</Link>
-            <Link to='About'>About</Link>
+            <Link to="Howto">Howto</Link>
+            <Link to="Service">Service</Link>
+            <Link to="Blog">Blog</Link>
+            <Link to="Contact">Contect</Link>
+            <Link to="Newspaper">NewsPaper</Link>
+            <Link to="About">About</Link>
            </nav>
         </div>
        </div>
