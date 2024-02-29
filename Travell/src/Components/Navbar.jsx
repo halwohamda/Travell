@@ -29,7 +29,7 @@ function Navbar() {
             <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
             <Link to="Howto" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Howto</Link>
             <Link to="Service" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Service</Link>
-            <Link to="Blog">Blog</Link>
+            <Link to="Blog" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Blog</Link>
             <Link to="Contact">Contect</Link>
             <Link to="Newspaper">NewsPaper</Link>
             <Link to="About">About</Link>
