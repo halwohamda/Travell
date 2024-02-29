@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-scroll';
+import {Button, Link} from 'react-scroll';
 import {AiOutlineClose} from 'react-icons/ai';
 import {AiOutlineMenuUnfold} from 'react-icons/ai';
 import { IoIosAirplane } from "react-icons/io";
@@ -40,6 +40,12 @@ function Navbar() {
             <Link to="About" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">About</Link>
             <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
            </nav>
+           <div className=" hidden md:flex">
+          <Button  title='BookingNow'/>
+           </div>
+           <div>
+            
+           </div>
         </div>
        </div>
     </div>
