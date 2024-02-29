@@ -32,7 +32,7 @@ function Navbar() {
             <Link to="Blog" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Blog</Link>
             <Link to="Contact" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Contect</Link>
             <Link to="Newspaper" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">NewsPaper</Link>
-            <Link to="About">About</Link>
+            <Link to="About" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">About</Link>
            </nav>
         </div>
        </div>
