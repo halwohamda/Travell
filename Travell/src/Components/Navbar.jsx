@@ -15,16 +15,16 @@ function Navbar() {
     //         setMenu(false);
     // }
   return (
-    <div className='fixed w-ful z-10'>
+    <div className='fixed w-ful z-10 text-white'>
        <div>
-       <div>
-            <div className='flex'>
+       <div className='flex flex-row justify-center gap-5 p-4 bg-gradient-to-r bg-purple-500  '>
+            <div className='flex flex-row gap-2 items-center cursor-pointer '>
                 <span className='mt-2'>
                 <IoIosAirplane />
                 </span>
-                <h5 className=''>Halwo <span>Travell</span></h5>
+                <h5 className='text-xl font-semibold'>Halwo <span>Travell</span></h5>
            </div>
-           <nav className='text-center m-auto'>
+           <nav className=' hidden md:flex flex-row items-center gap-8 '>
             <Link>Home</Link>
             <Link>Howto</Link>
             <Link>Service</Link>
