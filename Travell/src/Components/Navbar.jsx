@@ -15,23 +15,23 @@ function Navbar() {
     //         setMenu(false);
     // }
   return (
-    <div className='fixed w-ful z-10'>
+    <div className='fixed w-full z-10'>
        <div>
-       <div className='flex flex-row justify-between gap-5  '>
+       <div className='flex flex-row justify-between gap-5 p-5 px-5 lg:px-32 bg-gradient-to-r bg-purple-200 to-purple-500 shadow[0_3px_10px_rgb(0,0,0,0.2)]  '>
             <div className='flex flex-row gap-2 items-center cursor-pointer '>
-                <span className='mt-2'>
+                <span>
                 <IoIosAirplane />
                 </span>
                 <h5 className='text-xl font-semibold'>Halwo <span>Travell</span></h5>
            </div>
-           <nav className=' hidden md:flex flex-row items-center gap-8 text-lg font-medium '>
-            <Link>Home</Link>
-            <Link>Howto</Link>
-            <Link>Service</Link>
-            <Link>Blog</Link>
-            <Link>Contect</Link>
-            <Link>NewsPaper</Link>
-            <Link>About</Link>
+           <nav className=' hidden md:flex flex-row items-center gap-8 text-lg font-medium cursor-pointer '>
+            <Link to='/Home' >Home</Link>
+            <Link to='/Howto'>Howto</Link>
+            <Link to='/Service'>Service</Link>
+            <Link to='Blog'>Blog</Link>
+            <Link to='Contact'>Contect</Link>
+            <Link to='Newspaper'>NewsPaper</Link>
+            <Link to='About'>About</Link>
             <Link >Bookin Now</Link>
            </nav>
         </div>
