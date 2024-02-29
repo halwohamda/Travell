@@ -28,6 +28,7 @@ function Navbar() {
             <Link to="Home" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400" >Home</Link>
             <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
             <Link to="Howto" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Howto</Link>
+            <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
             <Link to="Service" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Service</Link>
             <Link to="Blog" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Blog</Link>
             <Link to="Contact" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">Contect</Link>
