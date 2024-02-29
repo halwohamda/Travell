@@ -25,14 +25,13 @@ function Navbar() {
                 <h5 className='text-xl font-semibold'>Halwo <span>Travell</span></h5>
            </div>
            <nav className=' hidden md:flex flex-row items-center gap-8 text-lg font-medium cursor-pointer '>
-            <Link to='/Home' >Home</Link>
+            <Link to="Home" >Home</Link>
             <Link to='/Howto'>Howto</Link>
             <Link to='/Service'>Service</Link>
             <Link to='Blog'>Blog</Link>
             <Link to='Contact'>Contect</Link>
             <Link to='Newspaper'>NewsPaper</Link>
             <Link to='About'>About</Link>
-            <Link >Bookin Now</Link>
            </nav>
         </div>
        </div>
