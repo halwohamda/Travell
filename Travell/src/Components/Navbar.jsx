@@ -6,14 +6,14 @@ import { IoIosAirplane } from "react-icons/io";
 
 
 function Navbar() {
-    // const [Menu,setMenu] =useState(false);
+    const [Menu,setMenu] =useState(false);
 
-    // const handleChange = ()=>{
-    //         setMenu(!Menu);
-    // }
-    // const closeMenu =()=>{
-    //         setMenu(false);
-    // }
+    const handleChange = ()=>{
+            setMenu(!Menu);
+    }
+    const closeMenu =()=>{
+            setMenu(false);
+    }
   return (
     <div className='fixed w-full z-10'>
        <div>
