@@ -15,7 +15,7 @@ function Navbar() {
     //         setMenu(false);
     // }
   return (
-    <div className='fixed w-ful z-10 text-white'>
+    <div className='fixed w-ful z-10'>
        <div>
        <div className='flex flex-row justify-between gap-5  '>
             <div className='flex flex-row gap-2 items-center cursor-pointer '>
