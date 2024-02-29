@@ -38,6 +38,7 @@ function Navbar() {
             <Link to="Newspaper" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">NewsPaper</Link>
             <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
             <Link to="About" spy={true} smooth={true} duration={500}className="group relative inline-block cursor-pointer hover:text-purple-400">About</Link>
+            <span className='absolute inset-x-0 bottom-0 h-0.5 bg-black transform scale-x-0 origin-left transition-transform group-hover:scale-x-100'></span>
            </nav>
         </div>
        </div>
