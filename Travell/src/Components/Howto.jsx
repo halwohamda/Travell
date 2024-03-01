@@ -9,21 +9,21 @@ const Howto = () => {
       icons:(
         <IoBed/>
       ),
-      title: "Hotel Bed",
+      title: "Hotel on the Bed",
       Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
     },
     {
       icons:(
         <AiOutlineSafety />
       ),
-      title: "Hotel Bed",
+      title: "Safe to Trust ",
       Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
     },
     {
       icons:(
         <TfiWorld />
       ),
-      title: "Hotel Bed",
+      title: "WorldWide Customers ",
       Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
     }
   ]
