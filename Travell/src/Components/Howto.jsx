@@ -42,7 +42,7 @@ const Howto = () => {
             <span className='font-semibold text-gray-700 text-[21px]'>
               {feature.title}
             </span>
-            <span className=''> {feature.Description}</span>
+            <span className=' text-center max-w-[360px] loading-7'> {feature.Description}</span>
           </div>
          })}
        
