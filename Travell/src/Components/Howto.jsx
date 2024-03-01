@@ -4,7 +4,7 @@ import { AiOutlineSafety } from "react-icons/ai";
 import { TfiWorld } from "react-icons/tfi";
 
 const Howto = () => {
-  const Featutelist = [
+  const Featureslist = [
     {
       icons:(
         <IoBed/>
@@ -35,8 +35,10 @@ const Howto = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-     <div className='flex md:flex-row flex-col w-full  '>
-
+     <div className='flex md:flex-row flex-col w-full items-center justify-between md:gap-0 gap-5 '>
+         {Featureslist.map((feature)=>{
+          return <div className='bg-white py-5 px-12' key={feature.title}></div>
+         })}
      </div>
     
 
