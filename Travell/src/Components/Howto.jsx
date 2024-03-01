@@ -1,8 +1,17 @@
 import React from 'react'
+import { IoBed } from "react-icons/io5";
 
 const Howto = () => {
   return (
-    <div>Howto</div>
+    <div>
+      <div>
+        <span><IoBed /></span>
+      </div>
+
+
+
+      
+    </div>
   )
 }
 
