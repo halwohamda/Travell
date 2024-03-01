@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoBed } from "react-icons/io5";
 import { AiOutlineSafety } from "react-icons/ai";
+import { TfiWorld } from "react-icons/tfi";
 
 const Howto = () => {
   const Featutelist = [
