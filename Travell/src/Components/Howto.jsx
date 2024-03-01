@@ -13,7 +13,7 @@ const Howto = () => {
     },
     {
       icons:(
-        <IoBed/>
+        <AiOutlineSafety />
       ),
       title: "Hotel Bed",
       Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
