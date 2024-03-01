@@ -6,7 +6,7 @@ import {AiOutlineMenuUnfold} from 'react-icons/ai';
 import { IoIosAirplane } from "react-icons/io";
 
 
-function Navbar() {
+const Navbar=()=> {
     const [Menu,setMenu] =useState(false);
 
     const handleChange = ()=>{
