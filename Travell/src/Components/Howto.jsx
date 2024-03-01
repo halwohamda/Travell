@@ -35,7 +35,9 @@ const Howto = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-     
+     <div className='flex md:flex-row flex-col w-full  '>
+
+     </div>
     
 
 
