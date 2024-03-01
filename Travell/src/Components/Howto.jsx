@@ -10,11 +10,12 @@ const Howto = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-      <div className='flex w-full flex-col py-6  '>
+      <div className=' flex-col py-6 mr-14 md:flex-row justify-center lg:px-32 px-5 bg-purple-100'>
         <span className='mr-4'><IoBed size={50} /></span>
-      </div>
-      <h2>Hotels bed</h2>
+        <h2>Hotels bed</h2>
       <p>Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Quaer</p>
+      </div>
+    
 
 
 
