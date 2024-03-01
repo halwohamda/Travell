@@ -6,10 +6,12 @@ const Howto = () => {
     <div>
       <div>
         <h2 className='text-purple-500 text-center text-4xl font-bold'>Features</h2>
+        <h3 className='text-center font-semibold text-5xl'>Our Princeles Feater</h3>
+        <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-      <div>
-        <span><IoBed /></span>
+      <div className='flex w-full flex-col py-6  m-auto'>
+        <span className='mr-4'><IoBed size={50} /></span>
       </div>
       <h2>Hotels bed</h2>
       <p>Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Quaer</p>
