@@ -1,7 +1,31 @@
 import React from 'react'
 import { IoBed } from "react-icons/io5";
+import { AiOutlineSafety } from "react-icons/ai";
 
 const Howto = () => {
+  const Featutelist = [
+    {
+      icons:(
+        <IoBed/>
+      ),
+      title: "Hotel Bed",
+      Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
+    },
+    {
+      icons:(
+        <IoBed/>
+      ),
+      title: "Hotel Bed",
+      Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
+    },
+    {
+      icons:(
+        <IoBed/>
+      ),
+      title: "Hotel Bed",
+      Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
+    }
+  ]
   return (
     <div>
       <div>
@@ -10,11 +34,7 @@ const Howto = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-      <div className=' border-2 width-2 height-2 items-center'>
-        <span className='mr-4'><IoBed size={50} /></span>
-        <h2>Hotels bed</h2>
-      <p>Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit. Quaer</p>
-      </div>
+     
     
 
 
