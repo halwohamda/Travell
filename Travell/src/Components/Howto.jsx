@@ -10,7 +10,7 @@ const Howto = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Quidem omnis, nam labori</p>
         
       </div>
-      <div className='flex w-full flex-col py-6  m-auto'>
+      <div className='flex w-full flex-col py-6  '>
         <span className='mr-4'><IoBed size={50} /></span>
       </div>
       <h2>Hotels bed</h2>
