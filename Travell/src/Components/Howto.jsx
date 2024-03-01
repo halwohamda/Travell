@@ -39,7 +39,7 @@ const Howto = () => {
          {Featureslist.map((feature)=>{
           return <div className='bg-white py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 cursor-pointer hover:scale-[1.05]' key={feature.title}></div>
          })}
-         style={{boxShadow}}
+         style={{boxShadow:"0 0 40px"}}
      </div>
     
 
