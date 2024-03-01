@@ -37,7 +37,7 @@ const Howto = () => {
       </div>
      <div className='flex md:flex-row flex-col w-full items-center justify-between md:gap-0 gap-5 '>
          {Featureslist.map((feature)=>{
-          return <div className='bg-white py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 cursor-pointer hover:scale-[]' key={feature.title}></div>
+          return <div className='bg-white py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all duration-300 cursor-pointer hover:scale-[1.05]' key={feature.title}></div>
          })}
      </div>
     
