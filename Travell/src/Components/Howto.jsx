@@ -8,9 +8,9 @@ const Howto = () => {
     {
       icons:(
         <IoBed/>
-      ),
-      title: "Hotel on the Bed",
-      Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
+      // ),
+      // title: "Hotel on the Bed",
+      // Description:"Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quidem omnis, nam labori"
     },
     {
       icons:(
