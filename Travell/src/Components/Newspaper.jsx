@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const Newspaper = () => {
-  return (
-    <div>Newspaper</div>
-  )
-}
+// const Newspaper = () => {
+//   return (
+//     <div>Newspaper</div>
+//   )
+// }
 
-export default Newspaper
+// export default Newspaper
