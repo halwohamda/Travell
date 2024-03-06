@@ -31,14 +31,14 @@ const Blog = () => {
        <span className="text-[18px] font-semibold text-slate-800 ">
          {plan.title}
 
-       </span>
+       {/* </span>
        <div className="flex items-center gap-[2px]">
         <star color='#60af5a'/>
         <star color='#60af5a'/>
         <star color='#60af5a'/>
         <star color='#60af5a'/>
         <star color='#60af5a'/>
-         
+          */}
        </div>
       </div>
       <div className="text-gray-400 text-[15px] mt-[2px] font-medium px-4">
