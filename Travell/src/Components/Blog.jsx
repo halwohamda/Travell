@@ -41,8 +41,8 @@ const Blog = () => {
          
        </div>
       </div>
-      {/* <div className="text-gray-400 text-[15px] mt-[2px] font-medium px-4">
-        {plan.code} */}
+      <div className="text-gray-400 text-[15px] mt-[2px] font-medium px-4">
+        {plan.code}
 
       </div>
       <div className="px-4 pt-4 leading-3 text-slate-700 max-w-[400px]">
