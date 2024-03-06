@@ -8,8 +8,8 @@ import '../Images/image3.jfif'
 const Blog = () => {
   const PlanList =[
     {title:"Private jet",Image:image1,code:"charter B129",price:"128" },
-    // {title:"Medical cuper",Image:image2,code:"charter B129",price:"128" },
-    // {title:"Private plane",Image:image1,code:"charter B129",price:"128" }
+    {title:"Medical cuper",Image:image2,code:"charter B129",price:"128" },
+    {title:"Private plane",Image:image1,code:"charter B129",price:"128" }
   ]
   return (
     <div className='w-full m-auto text-center md:flex-row '>
