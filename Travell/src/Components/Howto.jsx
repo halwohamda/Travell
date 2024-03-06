@@ -1,12 +1,12 @@
 import React from 'react'
 import { IoBed } from "react-icons/io5";
-import { AiOutlineSafety } from "react-icons/ai";
-import { TfiWorld } from "react-icons/tfi";
+// import { AiOutlineSafety } from "react-icons/ai";
+// import { TfiWorld } from "react-icons/tfi";
 
-const Howto = () => {
-  const Featureslist = [
-    {
-      icons:(
+// const Howto = () => {
+//   const Featureslist = [
+//     {
+//       icons:(
         <IoBed/>
       ),
       title: "Hotel on the Bed",
