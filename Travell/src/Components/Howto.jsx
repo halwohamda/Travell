@@ -37,7 +37,7 @@ const Howto = () => {
       </div>
      <div className='flex md:flex-row flex-col w-full items-center justify-between md:gap-0 gap-5 '>
          {Featureslist.map((feature)=>{
-          // return <div className='bg-white py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all  duration-300 cursor-pointer hover:scale-[1.05]'  style={{boxShadow: "0 0 40px 5px rgb(0 0 0 5% )" }} key={feature.title}>
+          return <div className='bg-white py-5 px-12 flex flex-col items-center justify-center gap-5 rounded-[10px] transition-all  duration-300 cursor-pointer hover:scale-[1.05]'  style={{boxShadow: "0 0 40px 5px rgb(0 0 0 5% )" }} key={feature.title}>
             {feature.icons}
             <span className='font-semibold text-gray-700 text-[21px]'>
               {feature.title}
