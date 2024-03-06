@@ -7,8 +7,8 @@ const Service = () => {
   return (
     <>
     <div className=' m-auto flex md:flex-col w-full items-center md:w-5 '>
-      {/* <div className=' mt-4'>
-      <IoIosAirplane size={300} color='rgb(171, 99, 171) ' /> */}
+      <div className=' mt-4'>
+      <IoIosAirplane size={300} color='rgb(171, 99, 171) ' />
       </div>
     </div>
     <div className='m-auto text-center md:flex-row w-full items-center lg:px-32'>
