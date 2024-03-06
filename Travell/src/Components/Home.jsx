@@ -11,8 +11,8 @@ function Home() {
            <h1 className='text-4xl font-semibold'>LUXURY Exprience Our SerVice</h1>
            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br /> ore debitis neque, id explicabo aperiam sapiente sed fugit quos?</p>
   <div className='flex flex-row gap-5'>
-  <Button title='Booking flight'/>
-            <Button title='Contact Us'/>
+  <Button title='BookingFlight'/>
+            <Button title='ContactUs'/>
   </div>
     </div>
     <div className="relative">
