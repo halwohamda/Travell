@@ -39,8 +39,8 @@ const Blog = () => {
         <star color='#60af5a'/>
         <star color='#60af5a'/>
          
-       {/* </div>
-      </div> */}
+       </div>
+      </div>
       <div className="text-gray-400 text-[15px] mt-[2px] font-medium px-4">
         {plan.code}
 
