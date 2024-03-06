@@ -1,7 +1,7 @@
 import React from 'react'
-// import { IoIosAirplane } from "react-icons/io";
-// import { IoCheckmarkCircle } from 'react-icons/io5';
-// import Button from '../Layout/Button';
+import { IoIosAirplane } from "react-icons/io";
+import { IoCheckmarkCircle } from 'react-icons/io5';
+import Button from '../Layout/Button';
 
 const Service = () => {
   return (
