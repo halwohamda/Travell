@@ -11,7 +11,7 @@ const Contact = () => {
    </span>
 <div className="flex md:flex-row flex-col gap-8 mb-2 md:mb-0 ">
   <input type="text" placeholder='Email Address'
-  className=' md:w-[500px] w-[400px]'
+  className=' md:w-[500px] w-[400px] border border-slate-400 outline-none'
   
   
   />
