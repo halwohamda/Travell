@@ -1,5 +1,6 @@
 import React from 'react'
 import sky from '../Private/sky.jfif';
+import Button from '../Layout/Button';
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
   <input type="text" placeholder='Email Address'
   className=' md:w-[300px] w-[200px] border border-slate-400 outline-none px-3 rounded-[10px] py-3'
   />
+  <Button title='submit'/>
   
 </div>
     </div>
