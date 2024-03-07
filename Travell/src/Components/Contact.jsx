@@ -10,7 +10,7 @@ const Contact = () => {
    It's Time to Enjoy  <br />
       Your Freedom!
    </span>
-<div className="flex md:flex-row flex-row gap-10 mb-2 md:mb-0 ">
+<div className="flex md:flex-col flex-row gap-10 mb-2 md:mb-0 ">
   <input type="text" placeholder='Email Address'
   className=' md:w-[400px] w-[300px] border border-slate-400 outline-none px-3 rounded-[10px] py-3'
   />
