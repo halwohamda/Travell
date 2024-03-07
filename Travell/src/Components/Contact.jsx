@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className=' w-full md:h-[400px] h-[460px] my-20 bg-fixed bg-cover relative z-[1]   ' style={{backgroundImage:`url(${sky})`, backgroundPosition: "bottom"}}> 
 <div className="flex w-full h-full md:flex-row  items-center justify-between px-10 banner z-[3] md:py-0 py-5 text-center ">
-   <span className='text-white md:text-[55px] text-[10px]'>
+   <span className='text-white md:text-[55px] text-[10px] font-semibold'>
    It's Time to Enjoy <br />
       Your Freedom
    </span>
