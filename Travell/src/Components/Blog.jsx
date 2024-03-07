@@ -1,27 +1,28 @@
 import React from 'react'
-import { Button } from 'react-scroll'
+import Button from '../Layout/Button';
 import { IoIosAirplane } from "react-icons/io";
-import '../Images/privatejet.png';
-import '../Images/medicalcuper.png';
-import '../Images/privateplane.png'
+import { IoStar } from 'react-icons/io5';
+import privatejet from '../Private/privatejet.png';
+import medicalcuper from '../Private/medicalcuper.png';
+import privateplane from '../Private/privateplane.png'
 
 const Blog = () => {
   const PlanList =[
     {
       title:"Private jet",
-      Image:privatejet,
+      image:privatejet,
       code:"charter B129",
       price:"128" },
     {
       title:"Medical cuper",
-      Image:medicalcuper,
+      image:medicalcuper,
       code:"charter B129",
       price:"128" },
     {title:"Private plane",
-    Image:privateplane,
+    image:privateplane,
     code:"charter B129",
     price:"128" }
-  ]
+  ];
   return (
     <div className='w-full m-auto text-center md:flex-row '>
       <div>
@@ -31,24 +32,25 @@ const Blog = () => {
       </div>
     <div className="flex w-full items-center md:flex-row justify-center flex-col gap-8">
     {PlanList.map((plan)=>{
-      return <div key={plane.title} className='bg-white p-[10px] rounded-[10px]'
-          style={boxShadow="0 0 40px 5px rgb(0 0 0 /5%) "}
+      return (
+        <div key={plan.title} className='bg-white p-[10px] rounded-[10px] transition-all  duration-300 cursor-pointer hover:scale-[1.05]'
+          style={{boxShadow:"0 0 40px 5px rgb(0 0 0 /5%) "}}
       >
-        <img src={plan.Image} alt={plan.title} />
-      </div>
-      
-      })}
-      <div className="flex justify-between w-full items-center mt-4 px-4 ">
+        <img src={plan.image} alt={plan.title} />
+        <div className="flex justify-between w-full items-center mt-4 px-4 ">
        <span className="text-[18px] font-semibold text-slate-800 ">
          {plan.title}
 
        </span>
        <div className="flex items-center gap-[2px]">
-        <star color='#60af5a'/>
-        <star color='#60af5a'/>
-        <star color='#60af5a'/>
-        <star color='#60af5a'/>
-        <star color='#60af5a'/>
+        <IoStar color="rgb(171, 99, 171)"/>
+        <IoStar color="rgb(171, 99, 171)"/>
+        <IoStar color="rgb(171, 99, 171)"/>
+        <IoStar color="rgb(171, 99, 171)"/>
+        <IoStar color="rgb(171, 99, 171)"/>
+      
+       
+       
          
        </div>
       </div>
@@ -64,12 +66,21 @@ const Blog = () => {
         <span className='text-purple-400 font-semibold text-[25px]'>${plan.price}</span> {""} /Hour
 
       </div>
-      <div className="w-[92%] mt-5 mx-auto border border-dashed border-slate-500">
+      <div className="w-[92%] mt-5 mx-auto ">
         <div className="w-full px-4">
-        <IoIosAirplane size={25} /> <Button title='BookNow'/>
+       <span className='flex'>
+       <Button title='BookNow'/>    
+       </span>
         </div>
 
       </div>
+      </div>
+    
+      
+      );
+      
+      })}
+     
     </div>
 
     </div>

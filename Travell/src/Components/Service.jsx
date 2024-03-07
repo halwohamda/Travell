@@ -22,7 +22,7 @@ const Service = () => {
     <span className='flex mt-4'><IoCheckmarkCircle size={25} color='rgb(171, 99, 171) ' style={{marginTop:"7px"}}/> <p>Lorem ipsum dolor  ipsum doloripsum dolor</p></span>
     <span className='flex mt-4'><IoCheckmarkCircle size={25} color='rgb(171, 99, 171) ' style={{marginTop:"7px"}}/> <p>Lorem ipsum dolor  ipsum doloripsum dolor</p></span>
     <span className='flex mt-4'><IoCheckmarkCircle size={25} color='rgb(171, 99, 171) ' style={{marginTop:"7px"}}/> <p>Lorem ipsum dolor  ipsum doloripsum dolor</p></span>
-    <div className='mt-6'>
+    <div className='mt-6 items-center'>
       <Button title='Decover More'/>
     </div>
     </div>
