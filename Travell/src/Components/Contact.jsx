@@ -9,9 +9,13 @@ const Contact = () => {
    It's Time to Enjoy  <br />
       Your Freedom!
    </span>
-{/* <div className="flex ">
-  <input type="text" placeholder='Search' />
-</div> */}
+<div className="flex md:flex-row flex-col gap-8 mb-3 ">
+  <input type="text" placeholder='Email Address'
+  className=''
+  
+  
+  />
+</div>
     </div>
 
     </div>
