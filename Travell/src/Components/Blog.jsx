@@ -2,9 +2,9 @@ import React from 'react'
 import Button from '../Layout/Button';
 import { IoIosAirplane } from "react-icons/io";
 import { IoStar } from 'react-icons/io5';
-import privatejet from '../Private/privatejet.png';
-import medicalcuper from '../Private/medicalcuper.png';
-import privateplane from '../Private/privateplane.png'
+import privatejet from '../Private/privatejet.jfif';
+import medicalcuper from '../Private/medicalcuper.jfif';
+import privateplane from '../Private/privateplane.jfif'
 
 const Blog = () => {
   const PlanList =[
