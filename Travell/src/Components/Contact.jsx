@@ -3,9 +3,9 @@ import sky from '../Private/sky.jfif';
 
 const Contact = () => {
   return (
-    <div> 
-      <div>
-        <img src={sky} alt="" />
+    <div className='w-full m-auto md:flex-col flex '> 
+      <div className='mt-20'>
+        <img src={sky} alt="" className='w-full h-40'  />
       </div>
     </div>
   )
