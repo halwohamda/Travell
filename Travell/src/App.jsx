@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Howto from './Components/Howto';
 import Service from './Components/Service';
 import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
 
 const App = () => {
@@ -23,6 +24,9 @@ const App = () => {
         </div>
         <div className="blog">
           <Blog/>
+        </div>
+        <div className="contact">
+          <Contact/>
         </div>
       </main>
     </div>
