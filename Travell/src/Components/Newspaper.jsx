@@ -1,15 +1,15 @@
-import React from 'react'
+// import React from 'react'
 
-const Newspaper = () => {
-  return (
-    <div>
-
-
+// const Newspaper = () => {
+//   return (
+//     <div>
 
 
-      
-    </div>
-  )
-}
 
-export default Newspaper
+
+
+//     </div>
+//   )
+// }
+
+// export default Newspaper
