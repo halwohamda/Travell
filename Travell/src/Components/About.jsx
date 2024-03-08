@@ -6,7 +6,8 @@ const About = () => {
       <span className="font-medium text-slate-400 ">
         copyright & 2024 halwo travell All right reserved.
       </span>
-      <div className="flex items-center">
+      <div className="flex items-center gap-8">
+        <a href="#" className='font-medium whitespace-nowrap md:text-[15px] text-[10.5px] text-gray-700 hover:text-purple-500'></a>
 
       </div>
     </div>
