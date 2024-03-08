@@ -7,7 +7,7 @@ import { MdDateRange } from "react-icons/md";
 const Newspaper = () => {
   return (
     <div className='w-full h-full md:flex-row flex-col  text-center'>
-      <div>
+      <div className='flex-row'>
         <span className='text-4xl text-purple-500 font-semiboldbold'>Our Blog</span> <br />
         <h1 className='mt-3 text-4xl font-bold'>Our List Blog</h1> <br />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum libero sequi</p> <br />
@@ -17,12 +17,12 @@ const Newspaper = () => {
        >
        <img src={news1} alt="" />
       </div>
-      <div className="flex  md:flex-row ">
+      <div className="flex  md:flex-row m-4 ">
        <CiUser  /> <span>Halwo adm</span>
        <MdDateRange /> <span>3/8/2024</span> 
-     
+       <h1 className='mt-5 mr-[10px]'>Most visited Contiries in 3 years</h1> <br />
        </div>
-       <h1>Most visited Contiries in 3 years</h1> <br />
+    
 
 </div>
 
