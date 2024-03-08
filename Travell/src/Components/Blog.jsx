@@ -69,7 +69,7 @@ const Blog = () => {
       <div className="w-[92%] mt-5 mx-auto ">
         <div className="w-full px-4">
        <span className='flex'>
-        <input type="submit"/>    <Button title='BookNow' type="submit"/>    
+      <Button type='submit' title='BookNow' />    
        </span>
         </div>
 
