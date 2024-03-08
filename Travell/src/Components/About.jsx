@@ -16,6 +16,9 @@ const About = () => {
         <a href="#" className='font-medium whitespace-nowrap md:text-[15px] text-[10.5px] text-gray-700 hover:text-purple-500'>
          copyright policy
         </a>
+        <a href="#" className='font-medium whitespace-nowrap md:text-[15px] text-[10.5px] text-gray-700 hover:text-purple-500'>
+         customers support
+        </a>
 
       </div>
     </div>
