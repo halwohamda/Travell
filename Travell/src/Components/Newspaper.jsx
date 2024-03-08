@@ -1,4 +1,7 @@
 import React from 'react'
+import news1 from '../News/news1.jfif'
+import news2 from '../News/news2.jfif'
+import news3 from '../News/news3.jfif'
 
 const Newspaper = () => {
   const newslist = [
