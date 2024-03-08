@@ -41,7 +41,7 @@ const Newspaper = () => {
       </p>
 
      </div>
-     <div className="flex w-full items-center justify-center">
+     <div className="flex w-full items-center justify-center md:flex-row flex-row gap-8">
 
      </div>
 
