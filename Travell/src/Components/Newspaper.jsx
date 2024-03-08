@@ -36,7 +36,7 @@ const Newspaper = () => {
      <div className="flex flex-col w-full items-center">
       <span className='font-semibold text-purple-700 '>Our Blog</span>
       <span className='font-semibold text-slate-700 mt-2 text-4xl '>Our List Blog</span>
-      <p className=''>
+      <p className='max-w-[400px]'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam facilis necessitatibus reprehenderit dicta numquam fugit fugiat, exercitationem
       </p>
 
