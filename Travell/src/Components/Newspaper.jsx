@@ -35,7 +35,10 @@ const Newspaper = () => {
 
      <div className="flex flex-col w-full items-center">
       <span className='font-semibold text-purple-700 '>Our Blog</span>
-      <span className='font-semibold text-slate-700 mt-4 text-4xl '>Our List Blog</span>
+      <span className='font-semibold text-slate-700 mt-2 text-4xl '>Our List Blog</span>
+      <p>
+        
+      </p>
 
      </div>
 
