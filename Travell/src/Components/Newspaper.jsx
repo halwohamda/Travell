@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../Private/news1.jfif'
-import img2 from '../Private/news2.jfif'
-import img3 from '../Private/news3.jfif'
+import postImage1 from '../Private/news1.jfif'
+import postImage2 from '../Private/news2.jfif'
+import postImage3 from '../Private/news3.jfif'
 import { IoCalendarClear, IoPersonOutline } from 'react-icons/io5'
 
 
@@ -9,7 +9,7 @@ import { IoCalendarClear, IoPersonOutline } from 'react-icons/io5'
 const Newspaper = () => {
   const posts = [
     {
-      image:"img1",
+      image: postImage1,
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
@@ -17,7 +17,7 @@ const Newspaper = () => {
 
     },
     {
-      image:"img2",
+      image: postImage2,
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
@@ -25,7 +25,7 @@ const Newspaper = () => {
 
     },
     {
-      image:"img3",
+      image: postImage3,
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
@@ -70,8 +70,9 @@ const Newspaper = () => {
             </div>
             <div className="px-4 leading-7 text-gray-700 max-w-[400px]">
               {post.Description}
-
-
+            </div>
+            <div className="font-medium text-purple-500 px-4 py-5 cursor-pointer">
+              Read More
             </div>
 
         </div>
