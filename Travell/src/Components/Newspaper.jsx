@@ -2,7 +2,13 @@ import React from 'react'
 
 const Newspaper = () => {
   return (
-    <div>Newspaper</div>
+    <div>
+
+
+
+
+      
+    </div>
   )
 }
 
