@@ -1,5 +1,6 @@
 import React from 'react'
 import news1 from '../News/news1.jfif'
+import { CiUser } from "react-icons/ci";
 
 const Newspaper = () => {
   return (
@@ -14,6 +15,9 @@ const Newspaper = () => {
        >
        <img src={news1} alt="" />
       </div>
+      <div className="mt-5">
+       <CiUser title='hamda adam' />
+       </div>
 
 
 
