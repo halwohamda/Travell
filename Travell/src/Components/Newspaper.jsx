@@ -1,6 +1,8 @@
 import React from 'react'
 import news1 from '../News/news1.jfif'
 import { CiUser } from "react-icons/ci";
+import { MdDateRange } from "react-icons/md";
+
 
 const Newspaper = () => {
   return (
@@ -16,7 +18,8 @@ const Newspaper = () => {
        <img src={news1} alt="" />
       </div>
       <div className="mt-5">
-       <CiUser title='hamda adam' />
+       <CiUser  /> <span>Halwo adm</span>
+       <MdDateRange /> <span>3/8/2024</span>
        </div>
 
 
