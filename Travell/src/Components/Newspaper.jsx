@@ -1,32 +1,35 @@
 import React from 'react'
-import news1 from '../News/news1.jfif'
-import news2 from '../News/news2.jfif'
-import news3 from '../News/news3.jfif'
+import img1 from '../Private/news1.jfif'
+import img2 from '../Private/news2.jfif'
+import img3 from '../Private/news3.jfif'
+import { IoCalendarClear, IoPersonOutline } from 'react-icons/io5'
+
+
 
 const Newspaper = () => {
-  const newslist = [
+  const posts = [
     {
-      Image:"news1",
+      image:"img1",
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
-      Description:""
+      Description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
 
     },
     {
-      Image:"news2",
+      image:"img2",
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
-      Description:""
+      Description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
 
     },
     {
-      Image:"news3",
+      image:"img3",
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
-      Description:""
+      Description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
 
     }
   ]
@@ -41,7 +44,38 @@ const Newspaper = () => {
       </p>
 
      </div>
-     <div className="flex w-full items-center justify-center md:flex-row flex-row gap-8">
+     <div className="flex w-full items-center justify-center md:flex-row flex-col gap-8">
+      {posts.map((post)=>{
+        return <div key={post.title} className='bg-white p-[10px] rounded-[10px]'
+        style={{boxShadow:"0 0 40px 5px rgb(0 0 0 /5%) "}}
+        >
+          <img 
+          src={post.image} 
+          // alt={post.title} 
+          className='w-[300px] h-[200px] rounded-[10px]'
+           />
+          <div className="flex w-full items-center gap-10 mt-3 px-4">
+            <div className="flex items-center gap-2">
+          <IoPersonOutline color='purple'/>
+          <span className='text-slate-600 text-1sm'>{post.autother }</span>
+            </div>
+            <div className="flex items-center gap-2">
+          <IoCalendarClear color='purple'/>
+          <span className='text-slate-600 text-1sm'>{post.date}</span>
+            </div>
+          </div>
+          <div className="text-[20px] font-semibold text-slate-800 px-4 py-5  ">
+              {post.title}
+
+            </div>
+            <div className="px-4 leading-7 text-gray-700 max-w-[400px]">
+              {post.Description}
+
+
+            </div>
+
+        </div>
+      })}
 
      </div>
 
