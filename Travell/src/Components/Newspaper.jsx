@@ -31,7 +31,7 @@ const Newspaper = () => {
     }
   ]
   return (
-    <div>
+    <div className='flex'>
 
 
 
