@@ -9,7 +9,7 @@ const Newspaper = () => {
         <h1 className='mt-3 text-4xl font-bold'>Our List Blog</h1> <br />
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum libero sequi</p> <br />
       </div>
-      <div className="fle">
+      <div className="flex">
        <img src={news1} alt="" />
       </div>
 
