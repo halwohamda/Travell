@@ -14,7 +14,7 @@ const Newspaper = () => {
 
     },
     {
-      Image:"news1",
+      Image:"news2",
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
@@ -22,7 +22,7 @@ const Newspaper = () => {
 
     },
     {
-      Image:"news1",
+      Image:"news3",
       autother:"halwo adam",
       date:"3/8/2024",
       title:"Most Visited Contires in 3 Years",
@@ -35,7 +35,7 @@ const Newspaper = () => {
 
 
 
-      
+
     </div>
   )
 }
