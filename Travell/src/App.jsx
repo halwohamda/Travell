@@ -6,6 +6,7 @@ import Service from './Components/Service';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 import Newspaper from './Components/Newspaper';
+import About from './Components/About';
 
 
 const App = () => {
@@ -31,6 +32,9 @@ const App = () => {
         </div>
         <div className="newspaper">
           <Newspaper/>
+        </div>
+        <div className="about">
+          <About/>
         </div>
       </main>
     </div>
