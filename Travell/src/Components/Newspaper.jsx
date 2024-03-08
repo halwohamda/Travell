@@ -5,7 +5,9 @@ const Newspaper = () => {
   return (
     <div>
 
- <div></div>
+ <div>
+  <img src={airpor} alt="" />
+ </div>
 
 
 
