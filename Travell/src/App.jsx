@@ -5,6 +5,7 @@ import Howto from './Components/Howto';
 import Service from './Components/Service';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
+import Newspaper from './Components/Newspaper';
 
 
 const App = () => {
@@ -27,6 +28,9 @@ const App = () => {
         </div>
         <div className="contact">
           <Contact/>
+        </div>
+        <div className="newspaper">
+          <Newspaper/>
         </div>
       </main>
     </div>
