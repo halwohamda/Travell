@@ -31,7 +31,12 @@ const Newspaper = () => {
     }
   ]
   return (
-    <div>Newspaper</div>
+    <div>
+
+
+
+      
+    </div>
   )
 }
 
