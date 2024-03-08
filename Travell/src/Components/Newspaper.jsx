@@ -31,7 +31,7 @@ const Newspaper = () => {
     }
   ]
   return (
-    <div className='flex'>
+    <div className='flex w-full pb-20 md:'>
 
 
 
