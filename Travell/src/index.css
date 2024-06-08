@@ -3,16 +3,7 @@
 @tailwind utilities;
 
 
-/* 
-body{
-    margin: 0;
-    padding: 0;
-    min-width: 100vh;
-    min-height: 100vh;
-    background: wheat;
-    overflow: hidden;
 
-} */
 
 ::-webkit-scrollbar{
     width: 8px;
